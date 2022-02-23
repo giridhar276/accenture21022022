@@ -1,0 +1,358 @@
+*** Everything in python is object ****
+*** Every object contains methods ****
+
+
+
+
+number
+---------
+number can be integer or decimal or hexa or octal.
+
+aval = 10
+bval = 34.3
+
+string  ( immutable ) 
+-------
+string is defined in single or double or triple quotes.
+
+aval = 'python programming'
+bval = "ruby programming"
+cval = """scala programming"""
+
+
+list
+--------
+list contains set of elements.
+Elements can be set of strings or numbers or any combination.
+
+alist = [10,20,30,40]
+blist = ["java","unix","scala"]
+clist = [40,3,"unix","oracle"]
+
+
+
+tuple  ( immutable  unchagable  uneditable)
+---------
+tuple contains set of elements.
+Elements can be set of strings or numbers or any combination.
+tuple elements are defined in ().
+***** Elements inside tuple cannot be modified directly ******
+
+
+atup = (30,33,32)
+btup = ("unix","spark","hadoop")
+ctup = (2,32,"java")
+
+
+dictionary
+-----------
+dictionary contains elements in key:value pairs.
+In dictionary,
+
+keys can be either string or number which are used to uniquely identify the values
+values can be either number or string or list or tuple or dictionary.
+
+
+syntax:    object = {key:value  , key:value , key:value}
+example:    book  = {"chap1":10 ,"chap2":20 ,"chap3":30}
+            info  = {1:2,3:4,5:6}
+            bookinfo= {"chap1":[30,"Rita","US"] ,"chap2":[70,"Rao","AUS"] }
+            book  = {"chap1":10 ,"chap2":20 ,"chap3":30 ,"chap1":1000}
+
+
+set
+----
+set is UNORDERED collection of UNIQUE elements of SAME type.
+
+aset = {10,10,10,20,30}
+
+
+
+
+
+mutable & immutable
+-------------------
+
+mutable
+----------
+list
+dictionary
+set
+
+
+immutable
+--------------
+number
+string
+tuple
+
+
+
+functions
+----------
+- builtin functions
+- user defined functions
+
+
+builtin functions  
+-----------------
+In the console  ...
+
+dir(__builtin__)  ---> will display all the list of builtin exceptions and functions
+
+print()
+len()
+dir()
+help()
+range()
+input()
+max()
+min()
+sum()
+type()
+isinstance()
+map()
+filter()
+
+
+
+typecasting functions : converting from one object to other
+str()
+int()
+oct()
+hex()
+list()
+tuple()
+dict()
+set()
+
+
+
+
+
+operators
+--------------
+
+arithmetic operators : + - * % 
+
+
+assignment operators  ( ++ and -- are NOT allowed in python )
+--------------------
++=  -= *=
+
+val = 10
+val +=1   or  val = val + 1
+val -=1   or  val = val - 1
+
+relational operators :
+---------------------
+< <= > >= == !=
+
+if  val < 10 :
+    # logical stats
+
+
+
+logical operators
+---------------------
+and
+or
+not
+
+name = "python"
+if name.isupper()  and len(name) == 6 :
+    # do something
+
+if name.isupper()  or len(name) == 6 :
+    # do something
+
+
+special operators
+-----------------------
+in
+as
++
+*
+
+
+
+
+
+
+
+
+file handling
+--------------
+
+- working with flat files ( csv conf log txt ....)
+- working with third party files ( pdf docx xlsx mp4 tar.... )
+
+working with flat files
+-----------------------
+
+
+
+opening the file
+
+syntax:   object = open(filename,mode)
+example:    fobj = open("customer.txt","r")
+            fobj = open("customer.txt","w")
+	    fobj = open("customer.txt","a")
+
+
+
+
+
+
+closing the file
+-----------------
+fobj.close()
+
+
+file read operation
+---------------------
+
+-> reading line by line using file object
+-> fobj.readlines()
+-> fobj.read()
+-> using csv library
+-> using pandas library
+
+
+
+
+exception handling
+--------------------
+
+Basically , there are 2 types of errors.
+
+1. syntax error
+2. semantic error or runtime error
+
+
+Handling the exceptions in the runtime is known as exception handling.
+
+
+try
+except
+else
+finally
+raise
+
+
+
+
+
+user defined function
+- code resusability
+
+
+ways of passing arguments
+--------------------------
+
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set
